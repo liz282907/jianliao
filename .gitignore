@@ -1,2 +1,7 @@
+server/build
+server/database.sqlite
 server/node_modules
+server/ncp-debug.log
+server/npm-debug.log
+
 my-jianliao/node_modules
