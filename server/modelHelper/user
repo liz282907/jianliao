@@ -1,0 +1,24 @@
+var model = require('../models/index')
+var User = model.User
+
+exports.getUsersByOrQuery = function (query, opt, callback) {
+    User.find().or(query).exec(callback);
+}
+
+exports.createAndSave = (userObj,cb)=>{
+    const user = new User(userObj)
+    user.save(cb);
+}
+
+exports.getUserByMail = (email,cb)=>{
+    User.findOne({email:email},cb)
+}
+
+exports.getUserByName = (name,cb)=>{
+    User.findOne({username:name},cb)
+}
+
+exports.getUserByEmailAndToken = (obj)=>{
+    User.findOne(obj,cb)
+}
+// exports.updateUser()
