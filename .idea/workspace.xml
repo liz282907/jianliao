@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c324b8c-c7b2-4f4d-b775-e40cf4d230cc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/config/env.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/config/jest/cssTransform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/config/jest/fileTransform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/config/paths.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/config/polyfills.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/config/webpack.config.dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/config/webpack.config.prod.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/jianliao.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/public/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/scripts/build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/scripts/start.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/scripts/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/src/App.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/src/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/src/App.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/src/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jianliao/src/logo.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server" afterPath="$PROJECT_DIR$/server" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -896,12 +869,12 @@
       <workItem from="1488693906295" duration="3352000" />
       <workItem from="1488770202080" duration="46000" />
       <workItem from="1488770273755" duration="13000" />
-      <workItem from="1488770387486" duration="22587000" />
+      <workItem from="1488770387486" duration="23118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25998000" />
+    <option name="totallyTimeSpent" value="26529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1440" height="833" extended-state="0" />
