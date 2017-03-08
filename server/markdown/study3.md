@@ -152,6 +152,14 @@ app.use('/',express.static(config.static_path))
 url: localhost:3001/account/signup
 
 exports.showSignup = function (req, res, next) {
-    res.sendFile('index.html',config.static_path)
+    res.sendFile('index.html',config.static_path)//注意sendFile要为绝对路径，或者要设置root
 }
 ```
+
+### 杂
+1. 不小心commit/add了nodemodule后，想在git里面删除掉：
+    ```javascript
+    git rm --cached client，
+    然后更新 .gitignore 忽略掉目标文件，
+    最后 git commit -m 
+    ```
