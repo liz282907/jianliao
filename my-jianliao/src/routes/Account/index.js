@@ -1,12 +1,15 @@
 import AccountLayout from '../../Layouts/AccountLayout'
-import Signup from './containers/SignupContainer'
+import Signup from './components/Signup/index'
+
+  import Counter from '../Counter/index'
+
 
 export default (store) => ({
   path: 'account',
-  indexRoute: AccountLayout,
+  indexRoute: { onEnter: (nextState, replace) => replace('/account/signup') },
   component: AccountLayout,
   childRoutes: [
-    { path: 'signup', component: Signup },
+    { path: 'signup', component: Counter },
     { path: 'signin', component: Signup },
     { path: 'forgot-password', component: Signup },
     { path: 'reset-password', component: Signup },

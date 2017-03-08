@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import Signup from '../components/Signup'
-import * as types from '../../../constants/actionTypes'
+import Signup from './Signup'
+import * as types from '../../../../constants/actionTypes'
 
 const mapStateToProps = (state) => ({
   account: state.account,
@@ -21,8 +21,8 @@ const mapDispatchToProps = {
   onPasswordChange
 }
 
-export default connect({
+export default connect(
   mapStateToProps,
   mapDispatchToProps
-})(Signup)
+)(Signup)
 
