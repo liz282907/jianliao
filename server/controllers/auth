@@ -9,6 +9,7 @@ const authMiddleware = require('../middleWares/auth')
 const ep = new EventProxy()
 const User = require('../modelHelper/index').User
 const mailer = require('../util/index').mailer
+const config = require('../config')
 
 /**
  * *********************util functions**********************
@@ -82,12 +83,11 @@ exports.signup = function (req, res, next) {
 }
 
 exports.showSignup = function (req, res, next) {
-    // console.log("______",__dirname+'public/dist/')
-    res.sendFile('index.html',{root: path.join(__dirname,'../public/dist')})
+    res.sendFile('index.html',config.static_path)
 }
 
 exports.showSignin = function (req, res, next) {
-    res.render('../public/index.html')
+    res.render('index.html')
 }
 
 exports.signin = function (req, res, next) {

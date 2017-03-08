@@ -47,9 +47,9 @@ app.use(session({
 //         next();
 //     }
 // });
-app.use('/',express.static(path.join(__dirname,'public')))
-app.get('/',function (req,res) {
-    res.render('index.html')
+app.use('/',express.static(config.static_path))
+app.get('/*',function (req,res) {
+    res.sendFile('index.html',{root: path.join(__dirname,'public/dist')})
 })
 
 // uncomment after placing your favicon in /public

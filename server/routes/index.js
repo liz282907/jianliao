@@ -9,7 +9,7 @@ var report = require('./report')
 //   res.render('index', { title: 'Express' });
 // });
 
-router.use('/',auth);
+router.use('/account',auth);
 // router.use('/report',report)
 
 module.exports = router;

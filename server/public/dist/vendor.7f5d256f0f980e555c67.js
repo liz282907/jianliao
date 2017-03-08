@@ -86,7 +86,7 @@
 /******/ 	}
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "35299eeb68c180513b63"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "7f5d256f0f980e555c67"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/
@@ -621,7 +621,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "http://10.200.215.201:3000/public/dist";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -12193,4 +12193,4 @@
 
 /***/ }
 /******/ ]);
-//# sourceMappingURL=vendor.35299eeb68c180513b63.js.map
+//# sourceMappingURL=vendor.7f5d256f0f980e555c67.js.map

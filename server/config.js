@@ -1,3 +1,5 @@
+const path = require('path')
+
 var config = {
     db: 'mongodb://127.0.0.1/jianliao',
     signed_secret: 'jianliao',    //deprecated
@@ -16,6 +18,7 @@ var config = {
     mail_login_pass: '123456a',
     project_name: 'jianliao-demo',
     site_dir:'localhost:3001',
+    static_path: path.join(__dirname,'public/dist')
 
 }
 
