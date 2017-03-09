@@ -1,22 +1,22 @@
 import AccountLayout from '../../Layouts/AccountLayout'
-import Signup from './components/Signup/index'
+import Signup from './components/Signup/index.js'
 
-  import Counter from '../Counter/index'
-
+// import Counter from '../Counter/index'
+import Home from '../Home/index'
 
 export default (store) => ({
   path: 'account',
   indexRoute: { onEnter: (nextState, replace) => replace('/account/signup') },
   component: AccountLayout,
   childRoutes: [
-    { path: 'signup', component: Counter },
-    { path: 'signin', component: Signup },
-    { path: 'forgot-password', component: Signup },
-    { path: 'reset-password', component: Signup },
-    { path: 'email-sent', component: Signup },
-    { path: 'vefify-email', component: Signup },
-    { path: 'bind-email', component: Signup },
-    { path: 'succeed-binding', component: Signup },
-    { path: '~', component: Signup }
+    Signup(store),
+    { path: 'signin', component: Home },
+    // { path: 'forgot-password', component: Counter(store) },
+    // // { path: 'reset-password', component: Home },
+    // { path: 'email-sent', component: Signup(store) },
+    // { path: 'vefify-email', component: Signup(store) },
+    // { path: 'bind-email', component: Signup(store) },
+    // { path: 'succeed-binding', component: Signup(store) },
+    // { path: '~', component: Signup(store) }
   ]
 })

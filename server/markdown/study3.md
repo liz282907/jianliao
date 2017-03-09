@@ -163,3 +163,18 @@ exports.showSignup = function (req, res, next) {
     然后更新 .gitignore 忽略掉目标文件，
     最后 git commit -m 
     ```
+2. 文件路径，区分项目路径跟文件系统路径
+应该是这样写
+
+    ```javascript
+    const srcFilePath = path.join(__dirname,config.fileDir.src,`${fileName}.md`);
+    //直接不加__dirname得到的是filesystem的路径
+    ```
+    >This is probably because you are trying to write to root of file system instead of your app directory '/avatar/myFile.png' -> __dirname + '/avatar/myFile.png'
+![](http://i1.piimg.com/567571/5f5f0ca5df81e0ed.png)
+
+3. moment 的format
+moment(dateobj,formatStr1).format(formatStr2)
+formatStr1是解析参数，formatStr2才是最终显示的格式参数。
+
+4. promise使用

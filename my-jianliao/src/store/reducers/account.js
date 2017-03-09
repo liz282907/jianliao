@@ -15,11 +15,7 @@ const password = (state = '', action) => {
   }
 }
 
-
-export  default combineReducers({
+export default combineReducers({
   account,
   password
 })
-
-
-
