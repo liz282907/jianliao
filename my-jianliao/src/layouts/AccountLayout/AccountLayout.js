@@ -4,7 +4,7 @@ import './AccountLayout.scss'
 
 export const AccountLayout = ({children}) => (
   <div className='app-page'>
-    <Brand className='app-aside' />
+    {/*<Brand className='app-aside' />*/}
     <div className='app-main'>
       <div className='app-container'>
         {children}

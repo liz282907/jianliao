@@ -117,7 +117,7 @@ class Signup extends Component {
               </div>
 
             </TabPane>
-            <TabPane tab={locale.get('signUpWithMobile')} key='mobile'>Content of Tab Pane 2</TabPane>
+            <TabPane tab={locale.get('signUpWithMobile')} key='mobile'>手机注册的content</TabPane>
           </Tabs>
         </div>
       </div>
