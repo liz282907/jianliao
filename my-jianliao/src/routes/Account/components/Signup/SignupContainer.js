@@ -3,8 +3,8 @@ import Signup from './Signup'
 import * as types from '../../../../constants/actionTypes'
 
 const mapStateToProps = (state) => ({
-  account: state.account,
-  password: state.password
+  account: state.account.account,
+  password: state.account.password
 
 })
 

@@ -97,7 +97,7 @@ class Signup extends Component {
                 <span className='text-guide'>
                   {locale.get('alreadyHaveAccount')}
                 </span>
-                <Space width='5' />
+                <Space width='5px' />
                 <Button type='primary' size='small'>
                   <Link to='/account/signin'>{locale.get('signIn')}</Link>
                 </Button>

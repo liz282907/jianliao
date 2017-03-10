@@ -6,7 +6,7 @@ class Space extends Component {
     const style = {
       width: width || '100%',
       height: height || '10px',
-      display: this.props.width ? 'inline-block' : 'block',
+      display: width ? 'inline-block' : 'block',
       verticalAlign: 'middle'
     }
 
