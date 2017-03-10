@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c324b8c-c7b2-4f4d-b775-e40cf4d230cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/components/Brand/Brand.scss" afterPath="$PROJECT_DIR$/my-jianliao/src/components/Brand/Brand.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/components/Header/Header.js" afterPath="$PROJECT_DIR$/my-jianliao/src/components/Header/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/layouts/AccountLayout/AccountLayout.js" afterPath="$PROJECT_DIR$/my-jianliao/src/layouts/AccountLayout/AccountLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/layouts/CoreLayout/CoreLayout.js" afterPath="$PROJECT_DIR$/my-jianliao/src/layouts/CoreLayout/CoreLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/config/karma.config.js" afterPath="$PROJECT_DIR$/my-jianliao/config/karma.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/config/project.config.js" afterPath="$PROJECT_DIR$/my-jianliao/config/project.config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js" afterPath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/routes/index.js" afterPath="$PROJECT_DIR$/my-jianliao/src/routes/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -140,8 +135,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/my-jianliao/src/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <state relative-caret-position="345">
+                  <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
@@ -149,14 +144,94 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Signup.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js">
+          <file leaf-file-name="postcss.config.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/postcss.config.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="125" column="3" lean-forward="true" selection-start-line="125" selection-start-column="3" selection-end-line="125" selection-end-column="3" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1925">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dev-server.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/bin/dev-server.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/server/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-15">
+                  <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="compile.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/bin/compile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="217">
+                  <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="karma.config.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/config/karma.config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="900">
+                  <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="environments.config.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/config/environments.config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding>
-                    <element signature="e#2122#3784#0" expanded="false" />
+                    <element signature="n#!!doc" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="project.config.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/config/project.config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="167">
+                  <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/config/webpack.config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="167">
+                  <caret line="124" column="20" lean-forward="false" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -167,10 +242,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>space</find>
-      <find>onConfirmChange</find>
-      <find>label</find>
-      <find>onchoosemobile</find>
       <find>l</find>
       <find>clean</find>
       <find>index</find>
@@ -187,7 +258,6 @@
       <find>wait</find>
       <find>webpack_hmr</find>
       <find>__webpack_hmr</find>
-      <find>config</find>
       <find>reducers/</find>
       <find>store</find>
       <find>signupcontainer</find>
@@ -197,6 +267,11 @@
       <find>Space</find>
       <find>corelayout</find>
       <find>tab</find>
+      <find>webpack.config</find>
+      <find>project</find>
+      <find>config</find>
+      <find>compiler_babel</find>
+      <find>plugins</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -217,8 +292,6 @@
         <option value="$PROJECT_DIR$/my-jianliao/.eslintrc" />
         <option value="$PROJECT_DIR$/my-jianliao/src/util/validate.js" />
         <option value="$PROJECT_DIR$/my-jianliao/package.json" />
-        <option value="$PROJECT_DIR$/my-jianliao/config/project.config.js" />
-        <option value="$PROJECT_DIR$/my-jianliao/config/karma.config.js" />
         <option value="$PROJECT_DIR$/my-jianliao/server/main.js" />
         <option value="$PROJECT_DIR$/my-jianliao/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -245,6 +318,8 @@
         <option value="$PROJECT_DIR$/my-jianliao/src/layouts/AccountLayout/AccountLayout.js" />
         <option value="$PROJECT_DIR$/my-jianliao/src/components/Signup/Signup.js" />
         <option value="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js" />
+        <option value="$PROJECT_DIR$/my-jianliao/config/karma.config.js" />
+        <option value="$PROJECT_DIR$/my-jianliao/config/project.config.js" />
       </list>
     </option>
   </component>
@@ -471,6 +546,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-jianliao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-jianliao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-jianliao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -917,12 +1046,12 @@
       <workItem from="1488899953897" duration="1789000" />
       <workItem from="1488936444209" duration="19044000" />
       <workItem from="1489022201464" duration="18016000" />
-      <workItem from="1489117380438" duration="307000" />
+      <workItem from="1489117380438" duration="2223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66816000" />
+    <option name="totallyTimeSpent" value="68732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -939,11 +1068,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28674698" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28674698" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14878398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -955,7 +1085,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -975,72 +1104,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-jianliao/bin/dev-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-jianliao/bin/compile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-jianliao/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="134">
-            <caret line="197" column="185" lean-forward="false" selection-start-line="197" selection-start-column="163" selection-end-line="197" selection-end-column="185" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-jianliao/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-jianliao/config/project.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-jianliao/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="427" lean-forward="false" selection-start-line="0" selection-start-column="427" selection-end-line="0" selection-end-column="427" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/controllers/report.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1088,16 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-jianliao/CHANGELOG.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="167">
-            <caret line="185" column="8" lean-forward="false" selection-start-line="185" selection-start-column="8" selection-end-line="185" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1329,14 +1382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-jianliao/src/layouts/AccountLayout/AccountLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-jianliao/src/components/Signup/Signup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1348,23 +1393,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="87" column="37" lean-forward="true" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+          <folding>
+            <element signature="e#118#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/CHANGELOG.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="167">
+            <caret line="228" column="8" lean-forward="false" selection-start-line="228" selection-start-column="8" selection-end-line="228" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/bin/compile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/layouts/AccountLayout/AccountLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/config/environments.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/postcss.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1925">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-jianliao/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js">
+    <entry file="file://$PROJECT_DIR$/my-jianliao/bin/dev-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="125" column="3" lean-forward="true" selection-start-line="125" selection-start-column="3" selection-end-line="125" selection-end-column="3" />
-          <folding>
-            <element signature="e#2122#3784#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/server/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/config/karma.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="124" column="20" lean-forward="false" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/config/project.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

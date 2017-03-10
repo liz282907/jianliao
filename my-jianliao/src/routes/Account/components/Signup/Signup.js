@@ -79,7 +79,7 @@ class Signup extends Component {
     return (
       <div>
         <div className='account-switcher'>
-          <Tabs defaultActiveKey={this.state.tab} onChange={this.onTabSwitch}>
+          <Tabs defaultActiveKey={this.state.tab} onChange={this.onTabSwitch} >
             <TabPane tab={locale.get('signUpWithEmail')} key='email'>
               <Space height='20px' />
               <div className='form'>
@@ -115,7 +115,6 @@ class Signup extends Component {
                   <Link to='/account/signin'>{locale.get('signIn')}</Link>
                 </Button>
               </div>
-
             </TabPane>
             <TabPane tab={locale.get('signUpWithMobile')} key='mobile'>手机注册的content</TabPane>
           </Tabs>
