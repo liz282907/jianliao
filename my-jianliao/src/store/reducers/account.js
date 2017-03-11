@@ -1,23 +1,39 @@
 import { combineReducers } from 'redux'
 import * as types from '../../constants/actionTypes'
 
-const account = (state = '', action) => {
+const initialState = {
+  account: '',
+  password: ''
+}
+
+const account = (state = initialState.account, action) => {
+  console.log("state ",state,"action--------", action)
   switch (action.type) {
     case (types.CHANGE_ACCOUNT):
-      return action.account
+          return action.account
     default: return state
   }
 }
 
-const password = (state = '', action) => {
+const password = (state = initialState.password, action) => {
   switch (action.type) {
     case (types.CHANGE_PASSWORD):
-      return action.password
+        return action.password
     default: return state
   }
 }
+export const getAccount = state => state.account
+export const getPassword = state => state.password
 
-export default combineReducers({
-  account,
-  password
-})
+const accountObj = (state= initialState,action) => {
+  return {
+    account: account(state.account,action),
+    password: password(state.password,action)
+  }
+}
+export default  accountObj
+
+// export default combineReducers({
+//   account,
+//   password
+// })

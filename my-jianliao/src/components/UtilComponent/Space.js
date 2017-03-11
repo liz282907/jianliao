@@ -11,7 +11,7 @@ class Space extends Component {
     }
 
     return (
-      <span style={style}>
+      <span className="lite-space" style={style}>
         {children}
       </span>
     )

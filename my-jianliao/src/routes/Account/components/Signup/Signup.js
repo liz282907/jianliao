@@ -14,6 +14,8 @@ const TabPane = Tabs.TabPane
 //   capitalize: (s) => s[0].toUpperCase() + s.slice(1)
 // }
 
+import './Signup.scss'
+
 class Signup extends Component {
 
   static propTypes = {
@@ -35,7 +37,7 @@ class Signup extends Component {
     }
   }
 
-  renderOkIcon = () => (<span className='icon-ok' />)
+  renderOkIcon = () => (<span className='icon-ok icon' />)
 
   getEmailInput () {
     const { account, onAccountChange } = this.props
@@ -77,12 +79,12 @@ class Signup extends Component {
     const { password, onPasswordChange } = this.props
 
     return (
-      <div>
+      <div className="form">
         <div className='account-switcher'>
           <Tabs defaultActiveKey={this.state.tab} onChange={this.onTabSwitch} >
             <TabPane tab={locale.get('signUpWithEmail')} key='email'>
               <Space height='20px' />
-              <div className='form'>
+              <div className='as-line'>
                 {this.state.tab === 'email' ? this.getEmailInput() : this.getMobileInput()}
               </div>
               <Space height='10px' />
@@ -96,6 +98,7 @@ class Signup extends Component {
                   onChange={this.onConfirmChange} />
                 { this.isConfirmOk() && this.renderOkIcon()}
               </div>
+              <Space height='35px' />
               <div className='as-line'>
                 { this.state.error && (
                   <span className='hint-error'>
@@ -103,15 +106,17 @@ class Signup extends Component {
                   </span>
                 )}
               </div>
+              <Space height='15px' />
               <div className='as-line-filled'>
-                <Button type='primary' disabled={this.state.isLoading}>{locale.get('signUp')}</Button>
+                <Button type='primary'  className="button" disabled={this.state.isLoading}>{locale.get('signUp')}</Button>
               </div>
+              <Space height='20px' />
               <div className='as-line-centered'>
                 <span className='text-guide'>
                   {locale.get('alreadyHaveAccount')}
                 </span>
                 <Space width='5px' />
-                <Button type='primary' size='small'>
+                <Button type='dashed' size='small' >
                   <Link to='/account/signin'>{locale.get('signIn')}</Link>
                 </Button>
               </div>

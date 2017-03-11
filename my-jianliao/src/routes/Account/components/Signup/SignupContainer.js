@@ -1,10 +1,11 @@
 import { connect } from 'react-redux'
 import Signup from './Signup'
 import * as types from '../../../../constants/actionTypes'
+import { getAccount,getPassword } from '../../../../store/reducers/account.js'
 
 const mapStateToProps = (state) => ({
-  account: state.account.account,
-  password: state.account.password
+  account: getAccount(state.account),
+  password: getPassword(state.account)
 
 })
 
