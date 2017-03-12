@@ -1,4 +1,4 @@
-import { combineReducers } from 'redux'
+// import { combineReducers } from 'redux'
 import * as types from '../../constants/actionTypes'
 
 const initialState = {
@@ -9,7 +9,7 @@ const initialState = {
 const account = (state = initialState.account, action) => {
   switch (action.type) {
     case (types.CHANGE_ACCOUNT):
-          return action.account
+      return action.account
     default: return state
   }
 }
@@ -17,19 +17,19 @@ const account = (state = initialState.account, action) => {
 const password = (state = initialState.password, action) => {
   switch (action.type) {
     case (types.CHANGE_PASSWORD):
-        return action.password
+      return action.password
     default: return state
   }
 }
 export const getAccount = state => state.account
 export const getPassword = state => state.password
 
-const accountObj = (state= initialState,action) => ({
-    account: account(state.account,action),
-    password: password(state.password,action)
+const accountObj = (state = initialState, action) => ({
+  account: account(state.account, action),
+  password: password(state.password, action)
 })
 
-export default  accountObj
+export default accountObj
 
 // export default combineReducers({
 //   account,

@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
+
 import { Link } from 'react-router'
 // import  classnames from 'classnames'
 
-import { Tabs, Button } from 'antd'
+import { Tabs, Button,Spin } from 'antd'
 import Space from '../../../../components/UtilComponent/Space'
 
 import locale from '../../../../constants/localeGuide'
@@ -13,7 +14,6 @@ const TabPane = Tabs.TabPane
 // const util = {
 //   capitalize: (s) => s[0].toUpperCase() + s.slice(1)
 // }
-
 
 class Signup extends Component {
 
@@ -34,19 +34,20 @@ class Signup extends Component {
       error: '',
       isLoading: false
     }
+    this.onSignup = this.onSignup.bind(this)
   }
 
-  renderOkIcon = () => (<span className="validate-icon"><i className='iconfont icon-Ok'></i></span>)
+  renderOkIcon = () => (<span className='validate-icon'><i className='iconfont icon-Ok' /></span>)
 
-  proxyInputEvent = (fn)=> (e) => fn(e.currentTarget.value)
+  proxyInputEvent = (fn) => (e) => fn(e.currentTarget.value)
 
   getEmailInput () {
     const { account, onAccountChange } = this.props
 
     return (
-        <input type='email' value={account}
-          onChange={this.proxyInputEvent(onAccountChange)}
-          placeholder='邮箱' autoFocus />
+      <input type='email' value={account}
+        onChange={this.proxyInputEvent(onAccountChange)}
+        placeholder='邮箱' autoFocus />
     )
   }
 
@@ -71,6 +72,33 @@ class Signup extends Component {
 
   onConfirmChange = (e) => this.setState({ confirmPass: e.currentTarget.value })
 
+  onSignup (){
+    const { onEmailSignup,account,password }  = this.props;
+    if(this.isAccountOk() && this.isPasswordOk() && this.isConfirmOk()){
+      this.setState({
+        isLoading: true
+      })
+      const data = {
+        account,
+        password
+      }
+      onEmailSignup(data,{
+        success:(res)=>{
+          this.setState({
+            error: null,
+            isLoading: false
+          });
+        },
+        error: (res)=>{
+          this.setState({
+            isLoading: false,
+            error: res.error
+          })
+        }
+      });
+    }
+  }
+
   render () {
     /**
      * helpers
@@ -78,7 +106,7 @@ class Signup extends Component {
     const { password, onPasswordChange } = this.props
 
     return (
-      <div className="form">
+      <div className='form' >
         <div className='account-switcher'>
           <Tabs defaultActiveKey={this.state.tab} onChange={this.onTabSwitch} >
             <TabPane tab={locale.get('signUpWithEmail')} key='email'>
@@ -86,7 +114,7 @@ class Signup extends Component {
               <div className='as-line'>
                 {this.state.tab === 'email' ? this.getEmailInput() : this.getMobileInput()}
                 {this.isAccountOk() && this.renderOkIcon()}
-                </div>
+              </div>
               <Space height='10px' />
               <div className='as-line'>
                 <input type='password' placeholder={locale.get('passwordNoShortThan6')} value={password}
@@ -108,7 +136,8 @@ class Signup extends Component {
               </div>
               <Space height='15px' />
               <div className='as-line-filled'>
-                <Button type='primary'  className="button" disabled={this.state.isLoading}>{locale.get('signUp')}</Button>
+                <Button type='primary' className='button' disabled={this.state.isLoading} onClick={this.onSignup}>{locale.get('signUp')}
+                </Button>
               </div>
               <Space height='20px' />
               <div className='as-line-centered'>

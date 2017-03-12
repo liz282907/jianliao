@@ -5,6 +5,7 @@ const webpack = require('webpack')
 const webpackConfig = require('../config/webpack.config')
 const project = require('../config/project.config')
 const compress = require('compression')
+const proxy = require('http-proxy-middleware')
 
 const app = express()
 
@@ -28,7 +29,11 @@ if (project.env === 'development') {
     stats       : project.compiler_stats,
     proxy: {
       '/*': {
-        target: 'http://localhost:3001'
+        target: {
+          'host': 'http://localhost',
+          'port': '3001'
+        },
+        changeOrigin: true,
       }
     }
   }))
@@ -36,11 +41,30 @@ if (project.env === 'development') {
     path: '/__webpack_hmr'
   }))
 
+
+  var options = {
+        target: 'localhost:3001', // target host
+        changeOrigin: true,               // needed for virtual hosted sites
+        ws: true,                         // proxy websockets
+        // pathRewrite: {
+        //     '^/api/old-path' : '/api/new-path',     // rewrite path
+        //     '^/api/remove/path' : '/path'           // remove base path
+        // },
+        // router: {
+        //     // when request.headers.host == 'dev.localhost:3000',
+        //     // override target 'http://www.example.org' to 'http://localhost:8000'
+        //     'dev.localhost:3000' : 'http://localhost:8000'
+        // }
+    };
+
+
   // Serve static assets from ~/public since Webpack is unaware of
   // these files. This middleware doesn't need to be enabled outside
   // of development since this directory will be copied into ~/dist
   // when the application is compiled.
   app.use(express.static(project.paths.public()))
+
+  app.use('/**',proxy(options))
 
   // This rewrites all routes requests to the root /index.html file
   // (ignoring file requests). If you want to implement universal

@@ -56,7 +56,7 @@ const karmaConfig = {
     reporters : project.coverage_reporters
   }
 }
-const plugins = ['istanbul', ["import", { libraryName: "antd", style: "css" }]]
+const plugins = ['istanbul', ['import', { libraryName: 'antd', style: 'css' }]]
 
 if (project.globals.__COVERAGE__) {
   karmaConfig.reporters.push('coverage')

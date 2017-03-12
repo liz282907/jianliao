@@ -67,13 +67,10 @@ exports.signup = function (req, res, next) {
                 email,
                 pass: passHash
             }
-            User.createAndSave(user, err=>{
-                    if(err) return next(err);
+            User.createAndSave(user,(err)=>{
+                if(err) return next(err);
+                exports.signin(req,res,next);
             })
-            res.status(201).send({
-                msg: "创建成功"
-            })
-            exports.signin(req, res, next);
         })
 
 

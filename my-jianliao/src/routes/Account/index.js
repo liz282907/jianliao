@@ -10,7 +10,7 @@ export default (store) => ({
   component: AccountLayout,
   childRoutes: [
     Signup(store),
-    { path: 'signin', component: Home },
+    { path: 'signin', component: Home }
     // { path: 'forgot-password', component: Counter(store) },
     // // { path: 'reset-password', component: Home },
     // { path: 'email-sent', component: Signup(store) },
