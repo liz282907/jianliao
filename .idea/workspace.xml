@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c324b8c-c7b2-4f4d-b775-e40cf4d230cc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-jianliao/markdown/notes.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-jianliao/src/styles/variables/_color.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.eot" afterPath="$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.ttf" afterPath="$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.woff" afterPath="$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js" afterPath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/SignupContainer.js" afterPath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/SignupContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/store/reducers/account.js" afterPath="$PROJECT_DIR$/my-jianliao/src/store/reducers/account.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/styles/_base.scss" afterPath="$PROJECT_DIR$/my-jianliao/src/styles/_base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/styles/core.scss" afterPath="$PROJECT_DIR$/my-jianliao/src/styles/core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.css" afterPath="$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.svg" afterPath="$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.svg" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,14 +28,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5700165">
+    <splitter split-orientation="horizontal" split-proportion="0.64">
       <split-first>
         <leaf>
-          <file leaf-file-name="Signup.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Signup.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
                     <element signature="e#118#153#0" expanded="true" />
@@ -35,11 +44,78 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Signup.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.scss">
+          <file leaf-file-name="_index.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/src/styles/components/_index.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HomeView.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Home/components/HomeView.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/src/styles/_base.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="core.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/src/styles/core.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="notes.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/markdown/notes.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="395">
+                    <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoreLayout.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/src/layouts/CoreLayout/CoreLayout.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_color.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my-jianliao/src/styles/variables/_color.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -53,22 +129,22 @@
             <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="373">
-                  <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+                  <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
-                    <marker date="1489291362000" expanded="true" signature="1213:1582" ph="{...}" />
-                    <marker date="1489291362000" expanded="true" signature="1359:1572" ph="&lt;div/&gt;" />
-                    <marker date="1489291362000" expanded="true" signature="1373:1507" ph="&lt;input/&gt;" />
+                    <marker date="1489299633000" expanded="true" signature="1108:1328" ph="{...}" />
+                    <marker date="1489299633000" expanded="true" signature="1175:1319" ph="&lt;div/&gt;" />
+                    <marker date="1489299633000" expanded="true" signature="1184:1318" ph="&lt;input/&gt;" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SignupContainer.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="SignupContainer.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/SignupContainer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
                   <folding>
                     <element signature="e#0#37#0" expanded="true" />
                   </folding>
@@ -76,13 +152,15 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="account.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="account.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/my-jianliao/src/store/reducers/account.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+                <state relative-caret-position="168">
+                  <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
+                    <marker date="1489291199000" expanded="true" signature="393:516" ph="{...}" />
+                    <marker date="1489291199000" expanded="true" signature="418:514" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -92,7 +170,7 @@
             <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Counter/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="225">
-                  <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+                  <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -132,7 +210,7 @@
             <entry file="file://$PROJECT_DIR$/my-jianliao/src/store/reducers/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="45">
-                  <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+                  <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -168,12 +246,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>babel-loader</find>
-      <find>loaders</find>
-      <find>babel</find>
-      <find>content-type</find>
-      <find>webpack-hot-middleware</find>
-      <find>environment</find>
       <find>wait</find>
       <find>webpack_hmr</find>
       <find>__webpack_hmr</find>
@@ -195,9 +267,15 @@
       <find>password</find>
       <find>button</find>
       <find>space</find>
-      <find>re</find>
       <find>input</find>
       <find>onaccountchange</find>
+      <find>debugg</find>
+      <find>iconfont.css</find>
+      <find>onpassword</find>
+      <find>core.scss</find>
+      <find>core</find>
+      <find>re</find>
+      <find>icon</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -244,11 +322,17 @@
         <option value="$PROJECT_DIR$/my-jianliao/src/components/UtilComponent/Space.js" />
         <option value="$PROJECT_DIR$/my-jianliao/src/layouts/AccountLayout/AccountLayout.js" />
         <option value="$PROJECT_DIR$/my-jianliao/src/layouts/AccountLayout/AccountLayout.scss" />
-        <option value="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.scss" />
         <option value="$PROJECT_DIR$/my-jianliao/src/store/reducers/index.js" />
-        <option value="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/SignupContainer.js" />
         <option value="$PROJECT_DIR$/my-jianliao/src/store/reducers/account.js" />
+        <option value="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/SignupContainer.js" />
+        <option value="$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.css" />
+        <option value="$PROJECT_DIR$/my-jianliao/src/styles/variables/color.scss" />
+        <option value="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.scss" />
+        <option value="$PROJECT_DIR$/my-jianliao/src/styles/_base.scss" />
         <option value="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js" />
+        <option value="$PROJECT_DIR$/my-jianliao/src/styles/components/_index.scss" />
+        <option value="$PROJECT_DIR$/my-jianliao/src/styles/core.scss" />
+        <option value="$PROJECT_DIR$/my-jianliao/markdown/notes.md" />
       </list>
     </option>
   </component>
@@ -382,6 +466,80 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-jianliao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="variables" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-jianliao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-jianliao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="store" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -431,6 +589,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-jianliao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-jianliao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -646,6 +860,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-jianliao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianliao-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-jianliao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="markdown" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -661,6 +911,11 @@
     <property name="FullScreen" value="true" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/my-jianliao/node_modules/mocha" />
     <property name="editor.config.accepted" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.Unnamed">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1088,12 +1343,12 @@
       <workItem from="1488936444209" duration="19044000" />
       <workItem from="1489022201464" duration="18016000" />
       <workItem from="1489117380438" duration="2394000" />
-      <workItem from="1489220539371" duration="17104000" />
+      <workItem from="1489220539371" duration="23482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86007000" />
+    <option name="totallyTimeSpent" value="92385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1110,10 +1365,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26024097" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13161659" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1416309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1188,14 +1443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-jianliao/src/store/createStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-203">
@@ -1255,7 +1502,7 @@
     <entry file="file://$PROJECT_DIR$/my-jianliao/src/store/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1279,7 +1526,7 @@
     <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Counter/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1292,34 +1539,166 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/store/reducers/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1489291199000" expanded="true" signature="393:516" ph="{...}" />
+            <marker date="1489291199000" expanded="true" signature="418:514" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/SignupContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-jianliao/src/store/reducers/account.js">
+    <entry file="file://$PROJECT_DIR$/my-jianliao/dist/app.4060f6828170c0345da5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="20150" column="3945" lean-forward="false" selection-start-line="20150" selection-start-column="3945" selection-end-line="20150" selection-end-column="3945" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/styles/fonts/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Home/components/HomeView.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Home/components/HomeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/CHANGELOG.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="167">
+            <caret line="185" column="8" lean-forward="false" selection-start-line="185" selection-start-column="8" selection-end-line="185" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/server/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/_Signup.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#118#153#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/styles/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/styles/variables/_color.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/layouts/CoreLayout/CoreLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/styles/components/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/src/styles/core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-jianliao/markdown/notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="395">
+            <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

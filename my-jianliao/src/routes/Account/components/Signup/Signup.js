@@ -14,7 +14,6 @@ const TabPane = Tabs.TabPane
 //   capitalize: (s) => s[0].toUpperCase() + s.slice(1)
 // }
 
-import './Signup.scss'
 
 class Signup extends Component {
 
@@ -37,30 +36,17 @@ class Signup extends Component {
     }
   }
 
-  renderOkIcon = () => (<span className='icon-ok icon' />)
+  renderOkIcon = () => (<span className="validate-icon"><i className='iconfont icon-Ok'></i></span>)
 
-  testonAccountChange(v){
-    debugger;
-    this.props.onAccountChange(v);
-  }
-
-  proxyInputEvent = (fn)=> (e)=> {
-    console.log(e.currentTarget.val)
-    fn(e.currentTarget.val)
-  }
+  proxyInputEvent = (fn)=> (e) => fn(e.currentTarget.value)
 
   getEmailInput () {
     const { account, onAccountChange } = this.props
 
-    const proxyOnAccountChange = (e)=> onAccountChange(e.target.value)
-
     return (
-      <div>
         <input type='email' value={account}
           onChange={this.proxyInputEvent(onAccountChange)}
           placeholder='邮箱' autoFocus />
-        {this.isAccountOk() && this.renderOkIcon()}
-      </div>
     )
   }
 
@@ -83,7 +69,7 @@ class Signup extends Component {
     key === 'email' ? onAccountChange('') : onAccountChange('+86')
   }
 
-  onConfirmChange = (confirmPass) => this.setState({ confirmPass })
+  onConfirmChange = (e) => this.setState({ confirmPass: e.currentTarget.value })
 
   render () {
     /**
@@ -99,11 +85,12 @@ class Signup extends Component {
               <Space height='20px' />
               <div className='as-line'>
                 {this.state.tab === 'email' ? this.getEmailInput() : this.getMobileInput()}
-              </div>
+                {this.isAccountOk() && this.renderOkIcon()}
+                </div>
               <Space height='10px' />
               <div className='as-line'>
                 <input type='password' placeholder={locale.get('passwordNoShortThan6')} value={password}
-                  onChange={onPasswordChange} />
+                  onChange={this.proxyInputEvent(onPasswordChange)} />
                 { this.isPasswordOk() && this.renderOkIcon()}
               </div>
               <div className='as-line'>

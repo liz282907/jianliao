@@ -17,13 +17,10 @@ const mapStateToProps = (state) => ({
 
 })
 
-const onAccountChange = (account) => {
-  debugger
-  return {
+const onAccountChange = (account) => ({
     type: types.CHANGE_ACCOUNT,
     account
-  }
-}
+  })
 // const onAccountChange = (account) => ({
 //   type: types.CHANGE_ACCOUNT,
 //   account

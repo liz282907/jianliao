@@ -3,13 +3,18 @@
     width: 380px;
   }
 }
+
 .as-line{
   position: relative;
-  icon{
+  width: 100%;
+  .validate-icon{
     position: absolute;
     right: 10px;
     top: 0;
     line-height: 48px;
+    .icon-Ok{
+      color: $icon-ok;
+    }
   }
   &-centered{
     text-align: center;
