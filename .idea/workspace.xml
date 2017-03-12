@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c324b8c-c7b2-4f4d-b775-e40cf4d230cc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my-jianliao/dist/1.counter.4060f6828170c0345da5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my-jianliao/dist/1.counter.4060f6828170c0345da5.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my-jianliao/dist/2.signup.4060f6828170c0345da5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my-jianliao/dist/2.signup.4060f6828170c0345da5.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my-jianliao/dist/app.4060f6828170c0345da5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my-jianliao/dist/app.4060f6828170c0345da5.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my-jianliao/dist/vendor.4060f6828170c0345da5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my-jianliao/dist/vendor.4060f6828170c0345da5.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/public/dist/1.counter.4060f6828170c0345da5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/public/dist/1.counter.4060f6828170c0345da5.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/public/dist/2.signup.4060f6828170c0345da5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/public/dist/2.signup.4060f6828170c0345da5.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/public/dist/app.4060f6828170c0345da5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/public/dist/app.4060f6828170c0345da5.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/public/dist/vendor.4060f6828170c0345da5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/public/dist/vendor.4060f6828170c0345da5.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/dist/src/styles/fonts/iconfont.eot" afterPath="$PROJECT_DIR$/my-jianliao/dist/src/styles/fonts/iconfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/public/dist/src/styles/fonts/iconfont.eot" afterPath="$PROJECT_DIR$/server/public/dist/src/styles/fonts/iconfont.eot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/config/karma.config.js" afterPath="$PROJECT_DIR$/my-jianliao/config/karma.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/config/project.config.js" afterPath="$PROJECT_DIR$/my-jianliao/config/project.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/dist/index.html" afterPath="$PROJECT_DIR$/my-jianliao/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/package.json" afterPath="$PROJECT_DIR$/my-jianliao/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/server/main.js" afterPath="$PROJECT_DIR$/my-jianliao/server/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/actions/index.js" afterPath="$PROJECT_DIR$/my-jianliao/src/actions/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/constants/actionTypes.js" afterPath="$PROJECT_DIR$/my-jianliao/src/constants/actionTypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/layouts/AccountLayout/AccountLayout.js" afterPath="$PROJECT_DIR$/my-jianliao/src/layouts/AccountLayout/AccountLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/layouts/CoreLayout/CoreLayout.js" afterPath="$PROJECT_DIR$/my-jianliao/src/layouts/CoreLayout/CoreLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js" afterPath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/Signup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/SignupContainer.js" afterPath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/SignupContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/index.js" afterPath="$PROJECT_DIR$/my-jianliao/src/routes/Account/components/Signup/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/routes/Account/index.js" afterPath="$PROJECT_DIR$/my-jianliao/src/routes/Account/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/routes/index.js" afterPath="$PROJECT_DIR$/my-jianliao/src/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jianliao/src/store/reducers/account.js" afterPath="$PROJECT_DIR$/my-jianliao/src/store/reducers/account.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app.js" afterPath="$PROJECT_DIR$/server/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/auth" afterPath="$PROJECT_DIR$/server/controllers/auth" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/public/dist/index.html" afterPath="$PROJECT_DIR$/server/public/dist/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,8 +62,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/my-jianliao/server/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="66" column="12" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+                <state relative-caret-position="446">
+                  <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -967,12 +932,12 @@
       <workItem from="1488936444209" duration="19044000" />
       <workItem from="1489022201464" duration="18016000" />
       <workItem from="1489117380438" duration="2394000" />
-      <workItem from="1489220539371" duration="29271000" />
+      <workItem from="1489220539371" duration="30289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98174000" />
+    <option name="totallyTimeSpent" value="99192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1419,8 +1384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-jianliao/server/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="66" column="12" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+        <state relative-caret-position="446">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>

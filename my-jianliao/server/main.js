@@ -37,25 +37,20 @@ if (project.env === 'development') {
       }
     }
   }))
+  var options = {
+    target: 'http://localhost:3001', // target host
+    changeOrigin: true,               // needed for virtual hosted sites
+    ws: true,                         // proxy websockets
+  };
+
+  // app.use('/account/*',proxy(options))
   app.use(require('webpack-hot-middleware')(compiler, {
     path: '/__webpack_hmr'
   }))
 
 
-  var options = {
-        target: 'localhost:3001', // target host
-        changeOrigin: true,               // needed for virtual hosted sites
-        ws: true,                         // proxy websockets
-        // pathRewrite: {
-        //     '^/api/old-path' : '/api/new-path',     // rewrite path
-        //     '^/api/remove/path' : '/path'           // remove base path
-        // },
-        // router: {
-        //     // when request.headers.host == 'dev.localhost:3000',
-        //     // override target 'http://www.example.org' to 'http://localhost:8000'
-        //     'dev.localhost:3000' : 'http://localhost:8000'
-        // }
-    };
+
+
 
 
   // Serve static assets from ~/public since Webpack is unaware of
@@ -64,7 +59,8 @@ if (project.env === 'development') {
   // when the application is compiled.
   app.use(express.static(project.paths.public()))
 
-  app.use('/**',proxy(options))
+  app.use('/account/*',proxy(options))
+  // app.use('*',proxy(options))
 
   // This rewrites all routes requests to the root /index.html file
   // (ignoring file requests). If you want to implement universal
