@@ -7,7 +7,6 @@ const initialState = {
 }
 
 const account = (state = initialState.account, action) => {
-  console.log("state ",state,"action--------", action)
   switch (action.type) {
     case (types.CHANGE_ACCOUNT):
           return action.account
@@ -25,12 +24,11 @@ const password = (state = initialState.password, action) => {
 export const getAccount = state => state.account
 export const getPassword = state => state.password
 
-const accountObj = (state= initialState,action) => {
-  return {
+const accountObj = (state= initialState,action) => ({
     account: account(state.account,action),
     password: password(state.password,action)
-  }
-}
+})
+
 export default  accountObj
 
 // export default combineReducers({

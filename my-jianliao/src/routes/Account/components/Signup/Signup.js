@@ -39,12 +39,25 @@ class Signup extends Component {
 
   renderOkIcon = () => (<span className='icon-ok icon' />)
 
+  testonAccountChange(v){
+    debugger;
+    this.props.onAccountChange(v);
+  }
+
+  proxyInputEvent = (fn)=> (e)=> {
+    console.log(e.currentTarget.val)
+    fn(e.currentTarget.val)
+  }
+
   getEmailInput () {
     const { account, onAccountChange } = this.props
+
+    const proxyOnAccountChange = (e)=> onAccountChange(e.target.value)
+
     return (
       <div>
         <input type='email' value={account}
-          onChange={onAccountChange}
+          onChange={this.proxyInputEvent(onAccountChange)}
           placeholder='邮箱' autoFocus />
         {this.isAccountOk() && this.renderOkIcon()}
       </div>
